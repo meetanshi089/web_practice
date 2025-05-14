@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The National University</title>
+<style>
+    body{
+        background-color: aquamarine;
+    }
+    img{
+        position:absolute;
+        background-color: aquamarine;
+        border-radius: 50%;
+        height:30%;
+        left: 50%;
+        bottom:50%;
+        animation-name: bouncing_ball;
+        animation-duration:2s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        }
+        @keyframes bouncing_ball{
+            0%{
+                bottom:0;
+                transform:translateY(-50%);
+            }
+            50%{
+                bottom:0;
+                transform:translateY(-50%);
+            }
+            100%{
+                bottom:50;
+                transform:translateY(50%);
+            }
+        }
+</style>
+</head>
+<body>
+  <!-- Football element -->
+  <div class="img">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVqdix0RNbEJzk7uEdQIeGw5StZvzCBWZJWxtD3TCmrvpoG62cEYVo-G2nNWHimeHuhHw&usqp=CAU" alt="football">
+  </div>
+</body>
+</html>
